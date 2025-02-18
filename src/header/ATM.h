@@ -1,4 +1,3 @@
-// ATM.h - Header file for ATM class
 #ifndef ATM_H
 #define ATM_H
 
@@ -8,11 +7,11 @@
 class ATM
 {
 private:
-    // Stores a list of ATM users
+    std::vector<ATMUser> users;
 
 public:
-    // Adds a new user to the ATM system
+    void addUser(const ATMUser &user);
+    ATMUser *authenticateUser(long int accNo, int pin);
+};
 
-    // Authenticates a user based on account number and PIN
-}
 #endif // ATM_H

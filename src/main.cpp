@@ -2,6 +2,6 @@
 
 int main()
 {
-    // Call the run function to start the ATM application
+    ATMApp::run();
     return 0;
 }
