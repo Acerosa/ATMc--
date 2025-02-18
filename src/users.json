@@ -1,18 +1,3 @@
 {
-    "users": [
-      {
-        "accountNo": 1234567,
-        "name": "Tim",
-        "PIN": 1111,
-        "balance": 45000.90,
-        "mobileNo": "9087654321"
-      },
-      {
-        "accountNo": 9876543,
-        "name": "Alice",
-        "PIN": 2222,
-        "balance": 15000.50,
-        "mobileNo": "9123456789"
-      }
-    ]
+    "users": []
   }

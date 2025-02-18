@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "PIN": 3333,
+            "accountNo": 136767,
+            "balance": 100000.0,
+            "mobileNo": "987654321",
+            "name": "R Rosa"
+        }
+    ]
+}
